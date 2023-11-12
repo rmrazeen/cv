@@ -1,47 +1,125 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-body{
-    font-family: 'Roboto', sans-serif;
-}
-main{
-    /* width: 60%; */
-    border: 2px solid black;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 60px;
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-}
-/* footer {
-    width: 30%;
-    border: 2px solid black;
-    padding: 20px; 
-    display: flex;
-    flex-direction: column; 
-    align-items: flex-start;
-    position: fixed;
-    bottom: 0; 
-    right: 0; 
-} */
-#Summary {
-    width: 60%;
+    box-sizing: border-box;
 }
 
-/* footer{
-   display: flex;
-   position: absolute;
-   bottom: 38rem;
-   left: 60%;
-   margin-top:50px;
-   width: 40%;
-   flex-direction: column;
-} */
-#skills{
+html{
+    font-size: 15px;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+max-width: 1265px;
+margin: 20px auto;
+}
+
+.firstcontainer {
     display: flex;
-    position: absolute;
-    align-items: start;
-    justify-content: end;
+    /* border: 2px solid black; */
+    padding: 2px;
+    
+
+}
+
+.secondcontainer {
+    display: flex;
+    /* border: 2px solid black; */
+    padding: 2px;
+    flex-wrap: wrap;
+}
+
+.thirdcontainer {
+    display: flex;
+    /* border: 2px solid black; */
+    padding: 2px;
+}
+/* First three main container  */
+
+ul{
+padding: 0;
+/* list-style: none; */
+}
+li{
+margin-bottom: 0.28rem;
+}
+
+.name {
+    width: 700px;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 30px;
+    
+}
+
+.name h1 {
+    font-size: 3.125em;
+    margin-bottom: 0.1em;
+    
+}
+.name h3{
+    font-size: 1.5625em;
+    margin-bottom: 0.4em;
+}
+.name p {
+    font-size: 1.25em;
+    margin-bottom: 0.35em;
+}
+.name a {
+font-size: 1.20em;
+margin-bottom: 20px;
+}
+.pic {
+    
+width: 100%;
+max-width: 160px;
+margin-top: auto;
+margin-bottom: auto;
+text-align: center;
+margin-left: 230px ;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.summary {
+    
+    flex: 40%;
+    font-size: 1.28em;
+    height: auto;
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.summary h2{
+
+    padding-top:35px;
+}
+.summary p {
+    padding-top: 12px;
+}
+
+.skills {
+    
+    flex: 20%;
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+    padding-left: 9rem;
+    
+
+}
+.Experiencediv{
+    padding: 20px;
+}
+.lastdiv {
+    margin-left: 500px;
+    margin-top: 20px ;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
 }
