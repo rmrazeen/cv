@@ -24,10 +24,11 @@ margin: 20px auto;
 }
 
 .secondcontainer {
-    display: flex;
-    /* border: 2px solid black; */
+    display: grid;
+    border: 2px solid black;
     padding: 2px;
-    flex-wrap: wrap;
+grid-template-columns:auto auto auto;
+    
 }
 
 .thirdcontainer {
@@ -88,12 +89,14 @@ img {
 
 .summary {
     
-    flex: 40%;
+    /* flex: 40%; */
     font-size: 1.28em;
-    height: auto;
+    
     /* border: 2px solid black; */
     margin-left: 60px;
     margin-top: 20px;
+    width: 700px;
+    
 
 }
 .summary h2{
@@ -106,18 +109,31 @@ img {
 
 .skills {
     
-    flex: 20%;
+    /* if i give display flex it will behave differently */
+    /* flex: 20%;
     margin-left: 6rem;
     margin-top: 1.5rem;
-    padding-left: 9rem;
+    padding-left: 9rem; */
+    /* alter */
+    position: relative;
+    left: 140px;
     
+    margin-top: 20px;
+    width: 280px;
+    /* flex-direction: column;
+    display: flex;
+    justify-content: space-around; */
 
+}
+
+.skills h2 {
+   gap: 2;
 }
 .Experiencediv{
     padding: 20px;
 }
 .lastdiv {
-    margin-left: 500px;
+    margin-left: 475px;
     margin-top: 20px ;
     flex-direction: column;
     display: flex;
