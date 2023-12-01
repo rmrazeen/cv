@@ -15,38 +15,13 @@ max-width: 1265px;
 margin: 20px auto;
 }
 
+                          /* TOP */
+
 .Top {
-    padding: 2px;
+    
     display: flex;
     justify-content: space-between;
 
-}
-
-.Middle {
-    padding: 2px;
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-.skills {
-
-    max-width: 265px;
-    margin: 20 25 0 0 ;
-    font-size: 1.1em;
-  
-
-}
-
-.skills h2 {
-   gap: 2;
-}
-
-.Bottom {
-    
-    padding-left: 55;
-   
-    
 }
 
 .pic {
@@ -62,11 +37,91 @@ margin: 20px auto;
         
     } 
 
+
+                         /* MIDDLE */
+
+.Middle {
+   
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skills {
+
+    max-width: 265px;
+    margin: 20 25 0 0 ;
+    font-size: 1.1em;
+  
+
+}
+
+.skills h2 {
+   margin: 15px 0 15px 0;
+}
+
+
+
+.summary {
+    
+    /* flex: 40%; */
+    font-size: 1.28em;
+    
+    /* border: 2px solid black; */
+    margin-left: 60px;
+    margin-top: 20px;
+    width: 700px;
+    
+
+}
+.summary h2{
+
+    padding-top:35px;
+}
+.summary p {
+    padding-top: 12px;
+}
+
+
+
+
+                         /* BOTTOM */
+
+.Bottom {
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.Experiencediv{
+    
+    font-size: 1.18em;
+    max-width: 700px;
+    margin: 0 0 0 60px;
+
+
+}
+
+.Activities {
+    max-width: 265px;
+}
+.Activities h2:nth-of-type(1) {
+    margin: 125px 0 15px 0;
+}
+
+.Activities h2:nth-of-type(2) {
+    margin: 85px 0 15px 0;
+}
+.Activities h2:nth-of-type(3) {
+    margin: 85px 0 15px 0;
+}
 /* First three main container  */
 
 ul{
 
-/* list-style: none; */
+padding: 0 0 0 27px;
 }
 li{ 
 margin-bottom: 0.30rem;
@@ -100,37 +155,9 @@ font-size: 1.20em;
 margin-bottom: 20px;
 }
 
-.summary {
-    
-    /* flex: 40%; */
-    font-size: 1.28em;
-    
-    /* border: 2px solid black; */
-    margin-left: 60px;
-    margin-top: 20px;
-    width: 700px;
-    
-
-}
-.summary h2{
-
-    padding-top:35px;
-}
-.summary p {
-    padding-top: 12px;
-}
 
 
-.Experiencediv{
-    padding-left: 57px;
-    padding-top: 5px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
-    width: 700px;
-    font-size: 1.18em;
 
-}
 .dutyp{
     font-weight: bold;
 }
@@ -159,16 +186,7 @@ margin-bottom: 20px;
 .span1{
     padding-left: 170px;
 }
-.lastdiv {
-    
-    flex-direction: column;
-    display: flex;
-    /* justify-content: space-around; */
-    width: 280px;
-    position: relative;
-    left: 275px;
-    
-}
+
 .lastdiv h2 {
     padding-top: 75px;
     padding-bottom: 6px;
