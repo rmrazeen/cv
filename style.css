@@ -15,6 +15,15 @@ max-width: 1265px;
 margin: 20px auto;
 }
 
+ul{
+
+    padding: 0 0 0 27px;
+    }
+    li{ 
+    margin-bottom: 0.30rem;
+    font-size: 1.1em;
+    }
+
                           /* TOP */
 
 .Top {
@@ -58,16 +67,14 @@ margin: 20px auto;
 
 .skills h2 {
    margin: 15px 0 15px 0;
+   color: rgb(232, 116, 44);
 }
 
 
 
 .summary {
     
-    /* flex: 40%; */
     font-size: 1.28em;
-    
-    /* border: 2px solid black; */
     margin-left: 60px;
     margin-top: 20px;
     width: 700px;
@@ -77,6 +84,8 @@ margin: 20px auto;
 .summary h2{
 
     padding-top:35px;
+    color: rgb(232, 116, 44);
+    
 }
 .summary p {
     padding-top: 12px;
@@ -103,33 +112,53 @@ margin: 20px auto;
 
 
 }
+
+                     /* Experiencediv */
+
 .Experiencediv span:nth-of-type(1){
     padding: 0 0 0 288px;
 }
+
+.Experiencediv p:nth-of-type(1){
+    padding: 0 0 4px 0;
+}
+.Experiencediv p:nth-of-type(2){
+    padding: 5px 0 3px 0;
+    font-weight: bold;
+}
+
+.Experiencediv ul{
+    padding-left: 22px;
+}
+.Experiencediv h2 {
+    padding:0 0 20px 0;
+    color: rgb(232, 116, 44);
+    font-size: 2em;
+    
+    
+}
+                      
+                    /* Activities */
+
 
 .Activities {
     max-width: 265px;
 }
 .Activities h2:nth-of-type(1) {
     margin: 125px 0 15px 0;
+    color: rgb(232, 116, 44);
 }
 
 .Activities h2:nth-of-type(2) {
     margin: 85px 0 15px 0;
+    color: rgb(232, 116, 44);
 }
 .Activities h2:nth-of-type(3) {
     margin: 85px 0 15px 0;
+    color: rgb(232, 116, 44);
 }
-/* First three main container  */
 
-ul{
 
-padding: 0 0 0 27px;
-}
-li{ 
-margin-bottom: 0.30rem;
-font-size: 1.1em;
-}
 
 .name {
     width: 700px;
@@ -143,6 +172,7 @@ font-size: 1.1em;
 .name h1 {
     font-size: 3.125em;
     margin-bottom: 0.1em;
+    color: rgb(238, 110, 31);
     
 }
 .name h3{
@@ -159,20 +189,6 @@ margin-bottom: 20px;
 }
 
 
-
-
-.dutyp{
-    font-weight: bold;
-}
-.Experiencediv ul{
-    padding-left: 22px;
-}
-.Experiencediv h2 {
-    padding-bottom:10px;
-    
-    
-}
-
 .Education h2{
     padding-bottom:10px;
     padding-top: 35px;
@@ -181,11 +197,14 @@ margin-bottom: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
-.span2,.span3 {
-    padding-left: 165px;
+.span2 {
+    padding-left: 336px;
+}
+.span3 {
+    padding: 0 0 0 351px;
 }
 .span1{
-    padding-left: 170px;
+    padding-left: 358px;
 }
 
 .lastdiv h2 {
