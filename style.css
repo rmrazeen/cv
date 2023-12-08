@@ -24,6 +24,24 @@ ul{
     font-size: 1.1em;
     }
 
+    a {
+        text-decoration: none;
+        color: rgb  (34, 127, 199);
+        
+    }
+    a:hover {
+        
+        color: rgb(232, 116, 44);
+       
+
+    }
+    /* a:active {
+        color: rgb(53, 160, 222);
+    }
+    a:visited{
+        color:  rgb(220, 232, 44);
+    } */
+
                           /* TOP */
 
 .Top {
@@ -41,12 +59,35 @@ ul{
     
     }
     
-      img {
+      .pic img {
         max-width: 100%;
         
     } 
+  .link {
+    width: 32px;
+    height: 34px;
+    display: flex;
+    position: relative;
+    bottom: 33px;
+    left: 210px;
+  }
+    .link img {
+        max-width: 100%;
+    }
+    .link img:hover {
+        
+        opacity: 0.8;
+        transform: scale(1.2); /* You can adjust the scale factor as needed */
+        transition: transform 0.3s ease;
+        z-index: 1;
+    }
 
-
+/* #linkedin {
+    position: relative;
+    bottom: 28px;
+    left: 35px;
+    
+} */
                          /* MIDDLE */
 
 .Middle {
@@ -198,13 +239,13 @@ margin-bottom: 20px;
     padding-bottom: 5px;
 }
 .span2 {
-    padding-left: 336px;
+    padding-left: 338px;
 }
 .span3 {
-    padding: 0 0 0 351px;
+    padding: 0 0 0 353px;
 }
 .span1{
-    padding-left: 358px;
+    padding-left: 360px;
 }
 
 .lastdiv h2 {
@@ -214,3 +255,6 @@ margin-bottom: 20px;
 .ref1{
     padding-bottom: 20px;
 }
+
+
+
